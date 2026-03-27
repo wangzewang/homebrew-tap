@@ -21,5 +21,8 @@ cask "fluxtty" do
     system_command "/usr/bin/xattr",
                    args: ["-r", "-d", "com.apple.quarantine", "#{appdir}/fluxtty.app"],
                    sudo: true
+    system_command "/usr/sbin/spctl",
+                   args: ["--add", "#{appdir}/fluxtty.app"],
+                   sudo: true
   end
 end
