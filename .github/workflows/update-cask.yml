@@ -7,11 +7,16 @@ on:
         description: "New version (e.g. 0.2.0)"
         required: true
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Compute sha256
         id: sha
