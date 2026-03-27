@@ -49,5 +49,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Casks/fluxtty.rb
+          git diff --cached --quiet && echo "No changes, skipping commit." && exit 0
           git commit -m "feat: update fluxtty to v${{ steps.sha.outputs.version }}"
           git push
