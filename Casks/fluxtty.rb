@@ -20,6 +20,6 @@ cask "fluxtty" do
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-r", "-d", "com.apple.quarantine", "#{appdir}/fluxtty.app"],
-                   sudo: false
+                   sudo: true
   end
 end
