@@ -1,5 +1,5 @@
 cask "fluxtty" do
-  version "0.1.2"
+  version "0.1.3"
 
   on_arm do
     url "https://github.com/wangzewang/fluxtty/releases/download/v#{version}/fluxtty_#{version}_aarch64.dmg"
