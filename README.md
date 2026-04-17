@@ -19,3 +19,13 @@ brew install --cask fluxtty
 ```
 
 **Homepage:** https://github.com/wangzewang/fluxtty
+
+### stayawake
+
+Menu-bar utility that keeps macOS awake during long-running work.
+
+```sh
+brew install --cask stayawake
+```
+
+**Homepage:** https://github.com/amoswzw/stayawake
