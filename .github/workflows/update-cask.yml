@@ -22,8 +22,8 @@ jobs:
         id: sha
         run: |
           VERSION="${{ github.event.inputs.version }}"
-          ARM_URL="https://github.com/wangzewang/fluxtty/releases/download/v${VERSION}/fluxtty_${VERSION}_aarch64.dmg"
-          X86_URL="https://github.com/wangzewang/fluxtty/releases/download/v${VERSION}/fluxtty_${VERSION}_x86_64.dmg"
+          ARM_URL="https://github.com/amoswzw/fluxtty/releases/download/v${VERSION}/fluxtty_${VERSION}_aarch64.dmg"
+          X86_URL="https://github.com/amoswzw/fluxtty/releases/download/v${VERSION}/fluxtty_${VERSION}_x86_64.dmg"
 
           ARM_SHA=$(curl -sL "$ARM_URL" | sha256sum | awk '{print $1}')
           X86_SHA=$(curl -sL "$X86_URL" | sha256sum | awk '{print $1}')

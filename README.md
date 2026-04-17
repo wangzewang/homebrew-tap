@@ -1,11 +1,11 @@
 # homebrew-tap
 
-Homebrew tap for [wangzewang](https://github.com/wangzewang)'s tools.
+Homebrew tap for [amoswzw](https://github.com/amoswzw)'s tools.
 
 ## Install
 
 ```sh
-brew tap wangzewang/tap
+brew tap amoswzw/tap
 ```
 
 ## Casks
@@ -18,7 +18,7 @@ Multi-session developer workspace terminal.
 brew install --cask fluxtty
 ```
 
-**Homepage:** https://github.com/wangzewang/fluxtty
+**Homepage:** https://github.com/amoswzw/fluxtty
 
 ### stayawake
 
