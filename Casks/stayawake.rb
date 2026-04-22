@@ -1,6 +1,6 @@
 cask "stayawake" do
-  version "0.1.1"
-  sha256 "d483beaf8387d05e6164e51f1d5525aa56680d9fcc7a057fd22a7c2fbf055b75"
+  version "0.1.2"
+  sha256 "80a512570471e9135134c24c2b88eaf6372d30b8c61bcb44d3e0651de327ff78"
 
   url "https://github.com/amoswzw/stayawake/releases/download/v#{version}/stayawake-#{version}-macos.dmg"
   name "stayawake"
