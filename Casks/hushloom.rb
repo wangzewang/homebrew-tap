@@ -1,6 +1,6 @@
 cask "hushloom" do
   version "0.1.0"
-  sha256 "6b4d8d33b1b3aafc8959b05abb95a2d51b8e13786812ba3cd2ef86b2c521954f"
+  sha256 "27b3e75567a58f18db239ea3386a3e252f9dddcca9ebb1f1a2dce6f44f0b55fe"
 
   url "https://github.com/amoswzw/Hushloom/releases/download/v0.1.0/Hushloom-v0.1.0-macos-universal.zip"
   name "Hushloom"
