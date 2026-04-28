@@ -8,6 +8,18 @@ Homebrew tap for [amoswzw](https://github.com/amoswzw)'s tools.
 brew tap amoswzw/tap
 ```
 
+## Formulae
+
+### aswitch
+
+Plugin-based CLI that atomically switches between AI agent accounts (Claude Code, Codex, Gemini, opencode) and reports per-account usage.
+
+```sh
+brew install aswitch
+```
+
+**Homepage:** https://github.com/amoswzw/aswitch
+
 ## Casks
 
 ### fluxtty
