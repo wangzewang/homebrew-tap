@@ -1,8 +1,8 @@
 cask "hushloom" do
-  version "0.1.11"
-  sha256 "6a8331e110b9ee84cadb257e2a234c13c2b9f1d423a1bfabdcb87df74adfb3b9"
+  version "0.1.12"
+  sha256 "5f810646a2cd459aa523042495a56b78e5baa075690ff1d8eca154aa591f2eb0"
 
-  url "https://github.com/amoswzw/Hushloom/releases/download/v0.1.11/Hushloom-v0.1.11.dmg"
+  url "https://github.com/amoswzw/Hushloom/releases/download/v0.1.12/Hushloom-v0.1.12.dmg"
   name "Hushloom"
   desc "macOS menu bar app for focus sessions, ambient soundscapes, and lightweight task tracking"
   homepage "https://github.com/amoswzw/Hushloom"
