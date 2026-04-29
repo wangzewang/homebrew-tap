@@ -1,9 +1,9 @@
 cask "fluxtty" do
-  version "0.1.21"
+  version "0.1.22"
 
   on_arm do
     url "https://github.com/amoswzw/fluxtty/releases/download/v#{version}/fluxtty_#{version}_aarch64.dmg"
-    sha256 "0653dc48cf428a7bf9f2e3e8a7ab107a0ba17296afab9502c9875d3b2bff5781"
+    sha256 "1e355af95768360cb7d7d02e53073e748ca391c62366c8841851bf7aca7f324c"
   end
 
   on_intel do
